@@ -2,7 +2,7 @@ const app=require('./app')
 const connectDb=require("./db/db")
 
 process.on('uncaughtException',(error)=>{
-    console.log(`server down $ {error.message}`)
+    console.log(`server down ${error.message}`)
     process.exit(0)
 })
 
