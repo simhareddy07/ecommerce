@@ -11,6 +11,22 @@ const userSchema = new mangoose.Schema({
         id:{type:String},
         url:{type:String}
     },
+    cart: [
+        {
+            productid: {
+                type: mongoose.Schema.Types.productid,
+                ref: "Product",
+                required: true
+            },
+
+            quantity: {
+                type: Number,
+                required: true,
+                min: 1,
+                default: 1
+            },
+        },
+    ],
     address:[
         {
             country:{type:String,required:true},
