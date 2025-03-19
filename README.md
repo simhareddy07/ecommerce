@@ -405,3 +405,8 @@ This allows users to add products to their cart while keeping track of quantitie
 
 I Created an endpoint to receive request from cart page.
 Now, i create an backend endpoint to fetch all the products inside cart with user mail.
+
+<h1>milestone 21</h1>
+
+Created an frontend form that will will take address.
+Take country, city, address1, address2, zip code, address type
