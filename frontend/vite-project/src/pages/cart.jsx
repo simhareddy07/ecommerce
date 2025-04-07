@@ -1,4 +1,4 @@
-import CartProduct from '../components/CartProduct'
+import CartProduct from '../omponents/CartProduct'
 import Nav from '../components/nav';
 import { useState, useEffect } from 'react';
 import axios from "axios";
