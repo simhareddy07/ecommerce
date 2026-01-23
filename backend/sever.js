@@ -18,4 +18,4 @@ connectDb()
 
 app.listen(process.env.PORT,()=>{
 console.log(`serve successfully  listen a port http://localhost:${process.env.port}`)
-})
+     }    )
