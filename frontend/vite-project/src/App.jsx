@@ -17,7 +17,7 @@ axios.get(`${server}/user/getuser`,{withCredentials:true})
     toast.success(res.data.message)
 })
 .catch(err=>toast.error(err.response.data.message))
-},[])
+      },[])
 
     return (
         <>
